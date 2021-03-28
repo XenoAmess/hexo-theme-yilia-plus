@@ -32,7 +32,7 @@
 			<div class="social">
 				<% for (var i in theme.subNav){ %>
 					<% for (var nav in theme.subNav[i]){ %>
-						<a class="<%= nav %>" href="<%- url_for(theme.subNav[i][nav]) %>" 
+						<a class="<%= nav %>" href="<%- url_for(theme.subNav[i][nav]) %>"
 												title="<% if (__('subNav.title.'+ nav)){ %><%= __('subNav.title.'+ nav) %><% } else { %><%= nav %><% } %>" <% if (theme.open_in_new.subNav){ %>target="_blank"<% } %>><i class="icon-<%= nav %>"></i></a>
 					<%}%>
 				<%}%>
@@ -51,5 +51,11 @@
 			<% } %>
 		<% } %>
 		</nav>
-	</header>		
+	</header>
+</div>
+<div class="social" style="position:fixed;bottom:0;margin-bottom:0;margin-left:0;" width=100% height=600>
+	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=600 src="//music.163.com/outchain/player?type=1&id=35297411&auto=1&height=430"></iframe>
+</div>
+<div style="position:fixed;right:0;bottom:0;margin-bottom:0;margin-left:0;" width="100%">
+	<a href="https://completionist.me/steam/profile/76561198273714027"><img src="https://steamsignature.com/card/0/76561198273714027.png" alt=""></a>
 </div>

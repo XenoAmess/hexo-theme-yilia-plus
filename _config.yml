@@ -1,28 +1,27 @@
 ﻿# Header-菜单
 menu:
   主页: /
-  技术笔记: https://zhousiwei.gitee.io/ibooks/
-  随笔: /tags/随笔/
+  修行: /tags/修行/
 
 # subNav-子导航
 subNav:
-  - github: "#"
-  - github: "#" # (支持设置多个)
-  - gitee: "#" # 码云
-  - jianshu: "#" #简书
+  - github: "https://github.com/XenoAmess"
+  #  - github: "#" # (支持设置多个)
+  #  - gitee: "#" # 码云
+  #  - jianshu: "#" #简书
   # - cnblog: "#"
   # - blog: "#"
   # - csdn: "#"
   # - rss: "#"
-  # - zhihu: "#"
+  - zhihu: "https://www.zhihu.com/people/xenoamess"
   # - qq: "img/2434387555.jpg"
   # - weixin: "img/weixin_.png"
   # - weibo: "#"
   # - douban: "#"
   # - segmentfault: "#"
-  # - bilibili: "#"
+  - bilibili: "https://live.bilibili.com/327118"
   # - acfun: "#"
-  # - mail: "mailto:zhousiwei0911@qq.com"
+  - mail: "mailto:xenoamess@gmail.com"
   # - facebook: "#"
   # - google: "#"
   # - twitter: "#"
@@ -62,7 +61,7 @@ open_in_new:
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 0
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
@@ -76,7 +75,7 @@ toc: 1
 # 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
 toc_hide_index: true
 # 目录为空时的提示
-toc_empty_wording: '目录，不存在的…'
+toc_empty_wording: '未观测到目录存在。重复。未观测到目录存在。疑惑。本机质疑该目录的存在性。'
 
 # 是否有快速回到顶部的按钮
 top: true
@@ -87,12 +86,12 @@ baidu_analytics: ''
 google_analytics: ''
 
 # 网站图标
-favicon: /favicon.ico
+favicon: /favicon.png
 
 # 你的头像url
-avatar: /img/head.jpg
+avatar: /XenoAmessAvatar.svg
 
-# 是否开启分享
+#是否开启分享
 share_jia: true
 
 # 评论：1、畅言；2、Disqus；3、Gitment；4、Giteement
@@ -157,6 +156,7 @@ clickLove:
 # GitHub Ribbons(https://github.blog/2008-12-19-github-ribbons/)
 github:
   # (关闭请设置为false)
+  enable: false
   url: https://github.com/JoeyBling/hexo-theme-yilia-plus
 
 # 页脚 Litten(此配置项已弃用)
@@ -171,10 +171,10 @@ baidu_push: false
 # 版权声明type设定：0-关闭版权声明； 1-文章对应的md文件里有copyright: true属性，才有版权声明； 2-所有文章均有版权声明
 copyright_type: 2
 # 版权声明自定义文本(关闭请设置为false)
-copyright_text: 
+copyright_text: <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
 
 # 网站成立年份(默认为 2018，若填入年份小于当前年份，则显示为 2018-2019 类似的格式)
-since: 2018
+since: 2021
 
 # Progress Bar | 页面加载进度条
 # Demo: http://github.hubspot.com/pace/docs/welcome/
@@ -202,7 +202,7 @@ tab_title_change:
 word_count:
   enable: true
   # 只在文章详情显示(不在首页显示)
-  only_article_visit: true
+  only_article_visit: false
 
 # 文字输入特效
 # https://github.com/disjukr/activate-power-mode
@@ -215,7 +215,7 @@ activate_power_mode:
 
 # 飘雪特效
 # https://github.com/MlgmXyysd/snow.js
-snow: false
+snow: true
 
 # 看板娘动态模型插件
 ## https://github.com/JoeyBling/live2d-widget.js
@@ -252,7 +252,7 @@ style:
 # slider的设置
 slider:
   # 是否默认展开tags板块
-  showTags: true
+  showTags: false
 
 # 智能菜单
 # 如不需要，将该对应项置为false
@@ -260,27 +260,27 @@ slider:
 #smart_menu:
 #  friends: false
 smart_menu:
-  innerArchive: '所有文章'
-  friends: '友链'
-  aboutme: '关于我'
+  innerArchive: '所有可说的一切'
+  friends: '友人、不连续存在'
+  aboutme: '自分'
 
 # 友情链接
 friends:
-  技术笔记:  #网站名称
-    #网站地址
-    url: https://zhousiwei.gitee.io/ibooks/
-    #网站图片(可忽略不写)
-    img: https://zhousiwei.gitee.io/ibooks/favicon.ico
-    #网站简介(可忽略不写)
-    description: 记录工作和学习过程中的笔记：Java、前端开发、Hexo博客、聚合支付、Linux笔记、ElasticSearch、ELK日志分析
-  GitHub:
-    url: https://github.com/JoeyBling
-  码云:
-    url: https://gitee.com/zhousiwei
-  简书:
-    url: https://www.jianshu.com/u/02cbf31a043a
-  CSDN:
-    url: https://blog.csdn.net/qq_30930805
+#  技术笔记:  #网站名称
+#    #网站地址
+#    url: https://zhousiwei.gitee.io/ibooks/
+#    #网站图片(可忽略不写)
+#    img: https://zhousiwei.gitee.io/ibooks/favicon.ico
+#    #网站简介(可忽略不写)
+#    description: 记录工作和学习过程中的笔记：Java、前端开发、Hexo博客、聚合支付、Linux笔记、ElasticSearch、ELK日志分析
+#  GitHub:
+#    url: https://github.com/JoeyBling
+#  码云:
+#    url: https://gitee.com/zhousiwei
+#  简书:
+#    url: https://www.jianshu.com/u/02cbf31a043a
+#  CSDN:
+#    url: https://blog.csdn.net/qq_30930805
 
 # 关于我
-aboutme: 主要涉及技术：<br>Java后端开发、聚合支付、<br>公众号开发、开源爱好者、Linux<br><br>联系QQ:2434387555<br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 代号为XenoAmess的、自称【方术师】的怪人。<br/>很强并且很弱但是很强却还是很弱。<br/>努力撑过了每一天。
