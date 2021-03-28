@@ -151,7 +151,7 @@ music:
 # 页面点击小红心
 clickLove:
   # (关闭请设置为false)
-  enable: true
+  enable: false
 
 # GitHub Ribbons(https://github.blog/2008-12-19-github-ribbons/)
 github:
@@ -192,7 +192,7 @@ apple_touch_icon: '/apple-touch-icon-180x180.png'
 
 # Tab Title Change | 标签页标题切换
 tab_title_change:
-  enable: true
+  enable: false
   left_tab_title: '(つェ⊂) 我藏好了哦~ '
   return_tab_title: '(*´∇｀*) 被你发现啦~ '
 
