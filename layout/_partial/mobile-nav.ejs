@@ -7,7 +7,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<a href="<%- url_for('/') %>">
+				<a href="<%- url_for(theme.avatar_link) %>">
 					<img src="<%- url_for(theme.avatar) %>" class="js-avatar">
 				</a>
 			</div>
@@ -22,12 +22,12 @@
 				<% count++ %>
 			<% } %>
 			<% var ulWidth = count > 2 ? '70%' : '50%'; %>
-			
+
 			<nav class="header-nav">
 				<div class="social">
 					<% for (var i in theme.subNav){ %>
 						<% for (var nav in theme.subNav[i]){ %>
-						<a class="<%= nav %>" target="_blank" 
+						<a class="<%= nav %>" target="_blank"
 							href="<%- url_for(theme.subNav[i][nav]) %>" title="<% if (__('subNav.title.'+ nav)){ %><%= __('subNav.title.'+ nav) %><% } else { %><%= nav %><% } %>"><i class="icon-<%= nav %>"></i></a>
 						<%}%>
 					<%}%>
@@ -42,7 +42,7 @@
 		        <%}%>
 				</ul>
 			</nav>
-		</header>				
+		</header>
 	</div>
 	<div class="mobile-mask" style="display:none" q-show="isShow"></div>
 </nav>

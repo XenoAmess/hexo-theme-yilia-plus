@@ -91,6 +91,10 @@ favicon: /favicon.png
 # 你的头像url
 avatar: /XenoAmessAvatar.svg
 
+avatar_link: https://github.com/XenoAmess
+
+author_link: https://github.com/XenoAmess
+
 #是否开启分享
 share_jia: true
 
