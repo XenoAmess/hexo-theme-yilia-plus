@@ -288,11 +288,12 @@ friends:
 
 # 关于我
 aboutme: |
-  <div style="position:fixed;right:0;bottom:0;margin-bottom:0;margin-left:0;" width="100%">
-      <a href="https://completionist.me/steam/profile/76561198273714027"><img src="https://steamsignature.com/card/0/76561198273714027.png" alt=""></a>
-  </div>
   自称为XenoAmess的方术师。<br/>
   很强并且很弱但是很强却还是很弱。<br/>
   努力撑过了每一天。<br/>
   但是没有什么意义。<br/>
   但是努力撑过了每一天。<br/>
+  <script src="https://www.hackthebox.eu/badge/485261"></script>
+  <div style="margin-left:0;margin-right:0;" width="100%">
+      <a href="https://completionist.me/steam/profile/76561198273714027"><img src="https://steamsignature.com/card/0/76561198273714027.png" alt=""></a>
+  </div>
