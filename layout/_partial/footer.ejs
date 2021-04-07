@@ -11,12 +11,6 @@
         </div>
     </div>
   </div>
-
-  <% if (theme.busuanzi && theme.busuanzi.enable){ %>
-    <script src="<%- url_for('lib/busuanzi.pure.js') %>"></script>
-    <meta name="referrer" content="no-referrer-when-downgrade">
-    <%# "<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>" %>
-  <% } %>
   <% if (theme.busuanzi && theme.busuanzi.enable && theme.busuanzi.site_visit){ %>
     <%# "不蒜子统计" %>
     <span id="busuanzi_container_site_pv" style="display:none">

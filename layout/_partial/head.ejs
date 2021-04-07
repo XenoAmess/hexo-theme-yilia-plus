@@ -56,5 +56,8 @@
     <script src="<%- url_for('lib/pace.min.js') %>"></script>
     <link href="//cdn.bootcss.com/pace/1.0.2/themes/<%= theme.progressBar.color || 'blue'%>/pace-theme-<%= theme.progressBar.type || 'minimal'%>.css" rel="stylesheet">
   <% } %>
-
+  <% if (theme.busuanzi && theme.busuanzi.enable){ %>
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <% } %>
 </head>
