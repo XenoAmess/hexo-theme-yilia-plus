@@ -296,10 +296,10 @@ aboutme: |
       <table>
         <tr>
           <td width="50%">
-            <a href="https://www.credly.com/earner/earned/badge/bf2bcf5f-cac4-46fb-b085-4cd77417eb41"><img src="https://images.credly.com/size/680x680/images/a9848abf-f8bd-474d-a9b4-6086da11a916/Oracle_Associates_Badge__1_.png" alt="" style="margin-left:0;margin-right:0;" width="100%"></a>
+            <a href="https://www.credly.com/earner/earned/badge/bf2bcf5f-cac4-46fb-b085-4cd77417eb41"><img src="/img/Oracle_Associates_Badge__1_.png" alt="" style="margin-left:0;margin-right:0;" width="100%"></a>
           </td>
           <td width="50%">
-            <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=408860CD182803B42920336203A0E90FB408C551182485F02EA460CD6BC6905D"><img src="https://brm-workforce.oracle.com/pdf/certview/images/Oracle_Java_SE_11_Developer.png" alt="" style="margin-left:0;margin-right:0;" width="100%"></a>
+            <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=408860CD182803B42920336203A0E90FB408C551182485F02EA460CD6BC6905D"><img src="/img/Oracle_Java_SE_11_Developer.png" alt="" style="margin-left:0;margin-right:0;" width="100%"></a>
           </td>
         </tr>
       </table>
