@@ -33,10 +33,7 @@ jobs:
           git submodule update
           git submodule foreach git pull origin master
       - name: Inject
-        run: |
-          npm install
-          npm run dist
-          cp -rf * ~/XenoAmessBlogFramework/themes/yilia-plus
+        run: cp -rf * ~/XenoAmessBlogFramework/themes/yilia-plus
       - name: Install Dependencies
         run: |
           cd ~/XenoAmessBlogFramework
