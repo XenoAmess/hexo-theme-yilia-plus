@@ -50,6 +50,11 @@ rss: /atom.xml
 excerpt_link: more
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
+
+auto_excerpt:
+  enable: true
+  lines: 5
+
 # 数学公式
 mathjax: false
 
